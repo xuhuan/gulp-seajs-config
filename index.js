@@ -30,7 +30,7 @@ module.exports = function(opts) {
 		digest.update(file.contents);
 		var tag = digest.digest("hex");
 		var name = opts.flatten ? path.basename(file.path) : path.relative(opts.cwd, file.path).replace(/\\/g, '/');
-		return [name, name + ' ? ' + (opts.length ? tag.substr(0, opts.length) : tag)];
+		return [name, name + '?' + (opts.length ? tag.substr(0, opts.length) : tag)];
 	}
 
 	var stream = through.obj(function(file, enc, done) {
