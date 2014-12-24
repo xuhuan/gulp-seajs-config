@@ -1,6 +1,6 @@
 {
 	"name": "gulp-seajs-config",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "用来生成seajs-config.js的gulp插件",
 	"main": "index.js",
 	"devDependencies": {

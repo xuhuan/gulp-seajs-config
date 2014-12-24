@@ -15,12 +15,9 @@ module.exports = function(opts) {
 	opts.cwd = opts.cwd || process.cwd();
 
 	var map = {};
-
-	if (!map.hasOwnProperty(opts.target)) {
-		map[opts.target] = {
-			'map': []
-		};
-	}
+	map[opts.target] = {
+		'map': []
+	};
 
 	var getHashName = function(file) {
 		if (file.isNull()) return '';
