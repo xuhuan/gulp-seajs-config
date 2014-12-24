@@ -16,6 +16,26 @@ gulp.task('default', function() {
 		.pipe(gulp.dest('./dest'));
 });
 ```
+#Options
+所有参数和默认值
+```
+.pipe(gsc({
+    target:"./seajs-config.js",
+    algorithm:"sha1",
+    length:null,
+    flatten:false,
+    cwd:process.cwd()
+}))
+```
+简单用法参数
+```
+.pipe(gsc("./seajs-config.js"))
+```
+Or
+```
+.pipe(gsc())
+```
+
 #License
 
 MIT
