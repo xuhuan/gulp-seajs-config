@@ -1,0 +1,23 @@
+{
+	"name": "gulp-seajs-config",
+	"version": "0.0.1",
+	"description": "用来生成seajs-config.js的gulp插件",
+	"main": "index.js",
+	"devDependencies": {
+		"gulp": "^3.8.10"
+	},
+	"dependencies": {
+		"through2": "^1.1.1",
+		"gulp-util": "^3.0.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/xuhuan/gulp-seajs-config"
+	},
+	"homepage": "https://github.com/xuhuan/gulp-seajs-config",
+	"author": "zhongjingjing <zhongjingjing@gmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	}
+}
